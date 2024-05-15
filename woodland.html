@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Woodland.One stop for Lifestyle and Sports Wear</title>
+    <link rel="icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="woodland.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="announcement">
+            "Woodland does not call the customer for asking OTP. Please do not share any OTP with anyone on call to avoid fraudulent transactions."
+        </div>
+        <div class="header1" >
+            <div class="header1-tab">
+                <div class="list-tab"><img src="/clone3/woodland/icons8-cart-30.png" id="cart">
+                    <p style="margin-bottom:0%">Cart</p>
+                </div>
+                    <div class="list-tab find store">Find Store</div>
+                        <div class="list-tab">Sign In<img src="/clone3/woodland/icons8-user-24.png" id="person"></div>
+                    </div>
+        </div>        
+        <div class="lower-brand-head" style="padding: 0px;">
+                <div class="content-box">
+                    <div class="logo-product-box">
+                        <img src="/clone2/Zomato/wooodland.png" alt="logo" width="100rem">
+                    </div>
+                    <div class="tabs">
+                        <button id="men">Men</button>
+                        <button id="women">Women</button>
+                        <button id="bags&gear">Bags & Gear</button>
+                        <button id="About Us">About Us</button>
+                        <button id="labs">Labs</button>
+                    </div>
+                    
+                    <div class="search-box">
+                        <input class="search-products" name="search" placeholder="search-products" onkeyup="searchproducts()">
+                        <button class="search-icon" tabindex="0" type="submit">
+                            <svg class="search-logo" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SearchOutlinedIcon">
+                                <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>           
+        </div>   
+    </header>
+    <section class="home-image">
+        <div class="welcome-image">
+            <img src="https://www.woodlandworldwide.com/_next/image?url=https%3A%2F%2Fassets.woodlandworldwide.app%2Fwoodland-images%2FSummer%2Fhero_banner_1.png&w=1920&q=75" class="intro-image">  
+        </div>
+    </section>
+    <section class="products-widndow">        
+        <div class="container">
+            <div class="image-box">
+                <div class="single-image">
+                    <div class="image">
+                        <img src="/clone3/woodland/IMG-20240511-WA0093.jpg" alt="" class="src img-overlay">
+                        <div class="image-content">
+                            <h3 class="seller">Best Seller</h3> 
+                            <button class="shopnow">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div> 
+                <div class="single-image">
+                    <div class="image">
+                        <img src="/clone3/woodland/IMG-20240511-WA0089.jpg" alt="" class="src img-overlay">
+                        <div class="image-content">
+                            <h3 class="seller">Sneakers</h3>
+                            <button class="shopnow">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-image">
+                    <div class="image">
+                        <img src="/clone3/woodland/IMG-20240511-WA0091.jpg" class="src img-overlay" >
+                        <div class="image-content">
+                            <h3 class="seller">Boots</h3>
+                            <button class="shopnow">SHOP NOW</button>
+                        </div>  
+                    </div>
+                </div>   
+                <div class="single-image">
+                    <div class="image">
+                        <img src="/clone3/woodland/IMG-20240511-WA0091.jpg" class="src img-overlay" >
+                        <div class="image-content">
+                            <h3 class="seller">Casuals & Canvas</h3>
+                            <button class="shopnow">SHOP NOW</button>
+                        </div>   
+                    </div>                    
+                </div>
+                <div class="single-image">
+                    <div class="image">
+                        <img src="/clone3/woodland/IMG-20240511-WA0062.jpg" class="src img-overlay">
+                        <div class="image-content">
+                            <h3 class="seller">Men's Apparels</h3>
+                            <button  class="shopnow">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>   
+                <div class="single-image">
+                    <div class="image">
+                        <img src="/clone3/woodland/IMG-20240511-WA0058.jpg" class="src img-overlay">
+                        <div class="image-content">
+                            <h3 class="seller">Women's Apparels</h3>
+                            <button class="shopnow">SHOP NOW</button>
+                        </div>
+                    </div>    
+                </div>
+            </div>   
+        </div>
+    </section>
+    <section class="outdoor-discovery">
+        <div class="outdoor">
+            <img src="https://www.woodlandworldwide.com/_next/image?url=https%3A%2F%2Fassets.woodlandworldwide.app%2Fwoodland-images%2FSummer%2Fwdl_shoe_banner.png&w=1920&q=75" class="outdoor-image">
+            <div class="green-btn">
+                <button class="shopnow-btn">SHOP NOW</button>
+            </div>
+        </div>
+    </section>
+    <section clasas="quick-shop">
+        <div class="multi-box">
+            <div class="product-mul-box">
+                <div class="single-box">
+                    <img src="https://www.woodlandworldwide.com/_next/image?url=https%3A%2F%2Fassets.woodlandworldwide.app%2Fcompressed%2Fimages%2FFGC015050201A%2FBLACK%2FFGC015050201A_004_0.jpg&w=1920&q=75" class="src">
+                    <div class="">
+
+                    </div>
+                </div>
+                <div class="single-box">
+                    <img src="https://www.woodlandworldwide.com/_next/image?url=https%3A%2F%2Fassets.woodlandworldwide.app%2Fcompressed%2Fimages%2FGGJC05004162A%2FELECTRIC_BLUE%2FGGJC05004162A_943_0.jpg&w=1920&q=75" alt="image" class="src">
+                </div>
+                <div class="single-box">
+                    <img src="https://www.woodlandworldwide.com/_next/image?url=https%3A%2F%2Fassets.woodlandworldwide.app%2Fcompressed%2Fimages%2FFLC0510AR852A%2FBEIGE%2FFLC0510AR852A_003_0.jpg&w=1920&q=75" alt="" class="src">
+
+                </div>
+                <div class="single-box">
+                    <img src="https://www.woodlandworldwide.com/_next/image?url=https%3A%2F%2Fassets.woodlandworldwide.app%2Fcompressed%2Fimages%2FGLJC05001901B%2FCASTOR_GREY%2FGLJC05001901B_C01_0.jpg&w=1920&q=75" alt="" class="src">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="aparel">
+        <div class="container-aparel">
+            <div class="mens">
+                <div class="image-men">
+                    <img src="/clone3/woodland/IMG-20240511-WA0082.jpg" alt="" class="src  img-overlay">
+                    <div class="text-in left-content">
+                        <h3 class="seller2">Shop Men's Apparel</h3>
+                        <button class="shopnow-btn2">SHOP NOW</button>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="womens">
+                <div class="image-women">
+                    <img src="/clone3/woodland/IMG-20240511-WA0096.jpg" alt="" class="src img-overlay">
+                    <div class="text-in right-content">
+                        <h3 class="seller2">Shop Women's Apparel</h3>
+                        <button class="shopnow-btn2">SHOP NOW</button>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="explore"> 
+        <div class="container-explore">
+            <div class="explore-fasion">
+                <div class="single-fasion-img">
+                    <div class="image-prvw ">
+                        <img src="/clone3/woodland/IMG-20240511-WA0079.jpg" alt="" class="src img-overlay">
+                        <div class="explore-content">
+                            <h3 class="shirts">Shirts</h3>
+                            <h4 class="shop-m-w">
+                                <a href="https://www.woodlandworldwide.com/product-list/MEN_SHIRTS_FULL_SLEEVE"> </a>
+                                Shop Men"|"Shop Women
+                                <a href="https://www.woodlandworldwide.com/product-list/WOMEN_SHIRTS_FULL_SLEEVE"></a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-fasion-img">
+                    <div class="image-prvw">
+                        <img src="/clone3/woodland/IMG-20240511-WA0083.jpg" alt="" class="src img-overlay">
+                        <div class="explore-content">
+                            <h3 class="shirts">T-shirts</h3>
+                            <h4 class="shop-m-w">
+                                <a href="https://www.woodlandworldwide.com/product-list/MEN_POLO"> </a>
+                                Shop Men"|"Shop Women
+                                <a href="https://www.woodlandworldwide.com/product-list/WOMEN_POLO"></a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-fasion-img">
+                    <div class="image-prvw ">
+                        <img src="/clone3/woodland/IMG-20240511-WA0081.jpg" alt="" class="src img-overlay">
+                        <div class="explore-content">
+                            <h3 class="shirts">Shorts</h3>
+                            <h4 class="shop-m-w">
+                                <a href="https://www.woodlandworldwide.com/product-list/MEN_SHORTS"></a>
+                                Shop Men"|"Shop Women
+                                <a href="https://www.woodlandworldwide.com/product-list/WOMEN_SHORTS"></a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-fasion-img">
+                    <div class="image-prvw ">
+                        <img src="/clone3/woodland/IMG-20240511-WA0073.jpg" alt="" class="src">
+                        <div class="explore-content">
+                            <h3 class="shirts">Jeans</h3>
+                            <h4 class="shop-m-w">
+                                <a href="https://www.woodlandworldwide.com/product-list/MEN_CHINOS"> </a>
+                                Shop Men"|"Shop Women
+                                <a href="https://www.woodlandworldwide.com/product-list/WOMEN_CHINOS"></a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="run-adventure">
+        <div class="run-pic">
+            <img src="/clone3/woodland/IMG-20240511-WA0088.jpg" class="outdoor-image">
+            <div class="green-btn">
+                <button class="shopnow-btn">SHOP NOW</button>
+            </div>
+        </div>
+    </section>
+    <section class="bib">
+        <div class="container-bib-box">
+            <div class="image-square">
+                <div class="mono-image2">
+                    <div class="one-image ">
+                        <img src="/clone3/woodland/IMG-20240511-WA0054.jpg" class="src img-overlay">
+                        <div class="image-content2">
+                            <h3 class="seller">Bags</h3>
+                            <button class="shopnow">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="mono-image2">
+                    <div class="oneimage">
+                        <img src="/clone3/woodland/IMG-20240511-WA0065.jpg" class="src img-overlay">
+                        <div class="image-content2">
+                            <h3 class="seller">InnerWear</h3>
+                            <button class="shopnow">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="mono-image2">
+                    <div class="oneimage">
+                        <img src="https://www.woodlandworldwide.com/_next/image?url=https%3A%2F%2Fassets.woodlandworldwide.app%2Fwoodland-images%2FImages%2Fbeltsandmore_cat_banner.png&w=1920&q=75" class="src img-overlay">
+                        <div class="image-content2">
+                            <h3 class="seller">Belts & More</h3>
+                            <button class="shopnow">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>   
+    </section>
+    <section class="insta-shop">
+        <div class="container-family">
+            <div class="upper-text-box">
+                <h3 class="wood-fam">AS WORN BY WOODLAND FAM</h3>
+                <p class="click-insta">Click to shop & mention us on instagram @woodlandworldwide to be featured</p>
+            </div>
+        
+            <div class="media-fam" >
+                <div class="single-photo">
+                    <div class="sin-img">
+                        <img src="/clone3/woodland/IMG-20240511-WA0067.jpg" alt="" class="src">
+                    </div>
+                </div>
+                <div class="single-photo">
+                    <div class="sin-img">
+                        <img src="/clone3/woodland/IMG-20240511-WA0068.jpg" alt="" class="src">
+                    </div>
+                </div>
+                <div class="single-photo">
+                    <div class="sin-img">
+                        <img src="/clone3/woodland/IMG-20240511-WA0072.jpg" alt="" class="src">
+                    </div>
+                </div>
+                <div class="single-photo">
+                    <div class="sin-img">
+                        <img src="/clone3/woodland/IMG-20240511-WA0092.jpg" alt="" class="src">
+                    </div>
+                </div>
+                <div class="single-photo">
+                    <div class="sin-img">
+                        <img src="/clone3/woodland/IMG-20240511-WA0076.jpg" alt="" class="src">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <section class="last-">
+            <div class="container-last-image">
+                <div class="image-part">
+                    <div class="right-img">
+                        <img src="/clone3/woodland/IMG-20240511-WA0074.jpg" class="src">
+                        <div class="content-panet">
+                            <h3 class="pro-planet">Pro Planet</h3>
+                            <p class="planet-decri">"Proplanet is a community that is committed to make our planet a better place to live in. Our ultimate goal is to inspire the next generation and increase their participation in the conservation of nature."</p>
+                            <button class="read-btn">Read More</button>
+                        </div>
+                    </div>
+                    <div class="left-img">
+                        <img src="/clone3/woodland/IMG-20240511-WA0075.jpg" class="src">
+                        <div class="content-panet">
+                            <h3 class="pro-planet">Woodland Research Lab</h3>
+                            <p class="planet-decri">"Woodlands expertise combines activity focused designs and technologically advanced materials available, created in the most innovative and effective manner possible."</p>
+                            <button class="read-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="green-foot">
+            <div class="container-footer">
+                <div class="footer-logo">
+                    <img src="/clone3/woodland/woodland-footer.png" alt="logo">  
+                </div>
+                <div class="brande-detail-box">
+                    <div class="product-types">
+                        <div class="container-product-type">
+                            <div class="footwear-grid">
+                                <h5>Shop Footwear</h5>
+                              
+                                <p>Boots</a>
+                            
+                                <p>Sneakers/Sports</a>
+                               
+                                <p>Casuals</a>
+                            
+                                <p>Formals</a>
+                                
+                                <p>Slippers/Flip-Flops</a>
+                                
+                                <p>Sandals</a>
+                                
+                                <p>Safty Shoes</a>
+                            </div> 
+                            <div class="clothing-grid">
+                                <h5>Shop Clothing Top<br></h5>
+                            
+                                <p>Jackets <br></p>
+                                
+                                <p >T-shirts <br></a>
+                             
+                                <p >Shirts <br></p>
+                                
+                                <p >Sweaters <br></p>
+                               
+                                <p>Sweatshirts & Hoodies <br></p>
+                                
+                                <p>Innerwear Tops <br></p>
+                            </div> 
+                            <div class="accessories-bag">
+                                <h5>Shop Accessories & Bags <br></h5>
+                                <p>Hiking Backpacks <br></p>
+                                <p>Cross Body Bags <br></p>
+                                <P>Belts <br></P>
+                                <p>Socks<br></p>
+                                <p>Wallets/Cardholders</p>
+                                <p>Shoe Care<br></p>
+                                <p>Trolley Bags<br></p>
+
+                            </div> 
+
+                        </div>
+                        <div class="brnad-contact">
+                            <div class="brand-container">
+                                <div class="contact-details">
+                                    <div class="det-box">
+                                        <p class="con">Contact Us</p>
+                                        <p class="help">Need help? Get in touch with us and we’ll be more than happy to guide you through!</p>
+                                        <p class="mail">care@woodlandworldwide.com</p>
+                                        <p class="num"> 1800 103 3445</p>
+                                        <p class="service">Woodland Customer Service Reps are available for inquiries Monday to Friday from 10AM to 6PM.</p>
+                                        <p class="service">2168, Gurudwara Road, Karol Bagh, New Delhi, Central Delhi- 110005, Delhi</p>
+                                    </div>
+                                </div>
+                                <div class="always">
+                                    <p class="alert-mail">Always keep exploring more!</p>
+                                    <p class="alert-mail-2">Get alerts for new arrivals, offers, and more!</p>
+                                    <div class="mail-alert">
+                                        <form class="footer-mail-box">
+                                            <input type="email" name="email" placeholder="Email Address" class="text-mail">
+                                            <button type="submit" class="sub-buttton">Submit</button>
+                                        </form>
+                                    </div> 
+                                    <p class="terms">By entering your email, you agree to our Terms of Service & Privacy Policy, including receipt of emails and promotions. You can unsubscribe at any time.</p>                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>        
+                        <div class="social-media-apps">
+                            <div class="social-med-box">
+                                <div class="media-icons">
+                                    <svg class="app-icons" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="InstagramIcon">
+                                        <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z">
+                                        </path>
+                                    </svg>
+                                    <svg class="app-icons" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="FacebookRoundedIcon"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"></path></svg>
+                                    <svg class="app-icons" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="TwitterIcon"><path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"></path></svg>
+                                    <svg class="app-icons" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="YouTubeIcon"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"></path></svg>
+                                    <svg class="app-icons" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="LinkedInIcon"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tale-end-container">
+                            <p>About Us</p>
+                            <p>Terms of Service</p>
+                            <p>Privacy Policy</p>
+                            <p>Blogs</p>
+                            <p>Refund policy</p>
+                            <p>Store Locator</p>
+                        </div>
+                        <div class="copy-right">
+                            <p>Copyright 2024, Woodand(AERO CLUB) Private Limited</p>
+                        </div>
+            </div>            
+                       
+
+                        
+
+                    
+
+
+                
+            
+
+        </footer>
+
+
+ 
+    
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
